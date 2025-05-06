@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 const Loading = () => {
   return (
     <div className="p-8 animate-pulse">
