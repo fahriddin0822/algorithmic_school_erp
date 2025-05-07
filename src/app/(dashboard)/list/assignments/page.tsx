@@ -30,27 +30,27 @@ const AssignmentListPage = async ({
   
   const columns = [
     {
-      header: "Subject Name",
+      header: "Fan nomi",
       accessor: "name",
     },
     {
-      header: "Class",
+      header: "Sinf",
       accessor: "class",
     },
     {
-      header: "Teacher",
+      header: "Ustoz",
       accessor: "teacher",
       className: "hidden md:table-cell",
     },
     {
-      header: "Due Date",
+      header: "Vaqti",
       accessor: "dueDate",
       className: "hidden md:table-cell",
     },
     ...(role === "admin" || role === "teacher"
       ? [
           {
-            header: "Actions",
+            header: "Harakatlar",
             accessor: "action",
           },
         ]

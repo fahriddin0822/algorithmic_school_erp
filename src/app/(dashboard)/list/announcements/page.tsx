@@ -23,15 +23,15 @@ const AnnouncementListPage = async ({
   
   const columns = [
     {
-      header: "Title",
+      header: "Nomi",
       accessor: "title",
     },
     {
-      header: "Class",
+      header: "Sinf",
       accessor: "class",
     },
     {
-      header: "Date",
+      header: "Vaqti",
       accessor: "date",
       className: "hidden md:table-cell",
     },
@@ -121,7 +121,7 @@ const AnnouncementListPage = async ({
       {/* TOP */}
       <div className="flex items-center justify-between">
         <h1 className="hidden md:block text-lg font-semibold">
-          All Announcements
+          Barcha E'lonlar
         </h1>
         <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
           <TableSearch />

@@ -130,7 +130,7 @@ const SingleStudentPage = async ({
                 <h1 className="text-xl font-semibold">
                   {student.class._count.lessons}
                 </h1>
-                <span className="text-sm text-gray-400">Lessons</span>
+                <span className="text-sm text-gray-400">Darslar</span>
               </div>
             </div>
             {/* CARD */}
@@ -164,7 +164,7 @@ const SingleStudentPage = async ({
               className="p-3 rounded-md bg-lamaSkyLight"
               href={`/list/lessons?classId=${student.class.id}`}
             >
-              Student&apos;s Lessons
+              Student&apos;s Darslar
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaPurpleLight"

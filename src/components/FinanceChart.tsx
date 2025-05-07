@@ -14,12 +14,12 @@ import {
 
 const data = [
   {
-    name: "Jan",
+    name: "Yan",
     income: 4000,
     expense: 2400,
   },
   {
-    name: "Feb",
+    name: "Fev",
     income: 3000,
     expense: 1398,
   },
@@ -39,12 +39,12 @@ const data = [
     expense: 4800,
   },
   {
-    name: "Jun",
+    name: "Iyun",
     income: 2390,
     expense: 3800,
   },
   {
-    name: "Jul",
+    name: "Iyul",
     income: 3490,
     expense: 4300,
   },
@@ -54,22 +54,22 @@ const data = [
     expense: 4300,
   },
   {
-    name: "Sep",
+    name: "Sen",
     income: 3490,
     expense: 4300,
   },
   {
-    name: "Oct",
+    name: "Okt",
     income: 3490,
     expense: 4300,
   },
   {
-    name: "Nov",
+    name: "Noy",
     income: 3490,
     expense: 4300,
   },
   {
-    name: "Dec",
+    name: "Dek",
     income: 3490,
     expense: 4300,
   },
@@ -79,7 +79,7 @@ const FinanceChart = () => {
   return (
     <div className="bg-white rounded-xl w-full h-full p-4">
       <div className="flex justify-between items-center">
-        <h1 className="text-lg font-semibold">Finance</h1>
+        <h1 className="text-lg font-semibold">Moliya</h1>
         <Image src="/moreDark.png" alt="" width={20} height={20} />
       </div>
       <ResponsiveContainer width="100%" height="90%">
@@ -111,11 +111,11 @@ const FinanceChart = () => {
           />
           <Line
             type="monotone"
-            dataKey="income"
+            dataKey="kirim"
             stroke="#C3EBFA"
             strokeWidth={5}
           />
-          <Line type="monotone" dataKey="expense" stroke="#CFCEFF" strokeWidth={5}/>
+          <Line type="monotone" dataKey="chiqim" stroke="#CFCEFF" strokeWidth={5}/>
         </LineChart>
       </ResponsiveContainer>
     </div>

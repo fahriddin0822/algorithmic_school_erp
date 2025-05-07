@@ -103,7 +103,7 @@ const SingleTeacherPage = async ({
               />
               <div className="">
                 <h1 className="text-xl font-semibold">90%</h1>
-                <span className="text-sm text-gray-400">Attendance</span>
+                <span className="text-sm text-gray-400">Yo'qlama</span>
               </div>
             </div>
             {/* CARD */}
@@ -119,7 +119,7 @@ const SingleTeacherPage = async ({
                 <h1 className="text-xl font-semibold">
                   {teacher._count.subjects}
                 </h1>
-                <span className="text-sm text-gray-400">Branches</span>
+                <span className="text-sm text-gray-400">Filiallar</span>
               </div>
             </div>
             {/* CARD */}
@@ -135,7 +135,7 @@ const SingleTeacherPage = async ({
                 <h1 className="text-xl font-semibold">
                   {teacher._count.lessons}
                 </h1>
-                <span className="text-sm text-gray-400">Lessons</span>
+                <span className="text-sm text-gray-400">Darslar</span>
               </div>
             </div>
             {/* CARD */}
@@ -151,14 +151,14 @@ const SingleTeacherPage = async ({
                 <h1 className="text-xl font-semibold">
                   {teacher._count.classes}
                 </h1>
-                <span className="text-sm text-gray-400">Classes</span>
+                <span className="text-sm text-gray-400">Sinflar</span>
               </div>
             </div>
           </div>
         </div>
         {/* BOTTOM */}
         <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
-          <h1>Teacher&apos;s Schedule</h1>
+          <h1>Ustoz&apos;ning jadvali</h1>
           <BigCalendarContainer type="teacherId" id={teacher.id} />
         </div>
       </div>
@@ -171,31 +171,31 @@ const SingleTeacherPage = async ({
               className="p-3 rounded-md bg-lamaSkyLight"
               href={`/list/classes?supervisorId=${teacher.id}`}
             >
-              Teacher&apos;s Classes
+              Ustoz&apos;ning sinflar
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaPurpleLight"
               href={`/list/students?teacherId=${teacher.id}`}
             >
-              Teacher&apos;s Students
+              Ustoz&apos;ning o'quvchilar
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaYellowLight"
               href={`/list/lessons?teacherId=${teacher.id}`}
             >
-              Teacher&apos;s Lessons
+              Ustoz&apos;ning darslar
             </Link>
             <Link
               className="p-3 rounded-md bg-pink-50"
               href={`/list/exams?teacherId=${teacher.id}`}
             >
-              Teacher&apos;s Exams
+              Ustoz&apos;ning imtihonlari
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaSkyLight"
               href={`/list/assignments?teacherId=${teacher.id}`}
             >
-              Teacher&apos;s Assignments
+              Ustoz&apos;ning baholari
             </Link>
           </div>
         </div>

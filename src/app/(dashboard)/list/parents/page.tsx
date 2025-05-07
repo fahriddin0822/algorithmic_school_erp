@@ -24,28 +24,28 @@ const role = (sessionClaims?.metadata as { role?: string })?.role;
 
 const columns = [
   {
-    header: "Info",
+    header: "Ma'lumotlar",
     accessor: "info",
   },
   {
-    header: "Student Names",
+    header: "O'quvchilar ismi",
     accessor: "students",
     className: "hidden md:table-cell",
   },
   {
-    header: "Phone",
+    header: "Telefon",
     accessor: "phone",
     className: "hidden lg:table-cell",
   },
   {
-    header: "Address",
+    header: "Manzil",
     accessor: "address",
     className: "hidden lg:table-cell",
   },
   ...(role === "admin"
     ? [
         {
-          header: "Actions",
+          header: "Harakat",
           accessor: "action",
         },
       ]

@@ -11,17 +11,17 @@ import {
 const CountChart = ({ boys, girls }: { boys: number; girls: number }) => {
   const data = [
     {
-      name: "Total",
+      name: "Barcha",
       count: boys+girls,
       fill: "white",
     },
     {
-      name: "Girls",
+      name: "Qiz",
       count: girls,
       fill: "#FAE27C",
     },
     {
-      name: "Boys",
+      name: "O'gil",
       count: boys,
       fill: "#C3EBFA",
     },
