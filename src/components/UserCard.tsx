@@ -13,7 +13,13 @@ const UserCard = async ({
     parent: prisma.parent,
   };
 
-  const data = await modelMap[type].count();
+  let data = 0;
+  try {
+    data = await modelMap[type].count();
+  } catch (err) {
+    console.error("Error fetching user count for type:", type, err);
+  }
+
 
   return (
     <div className="rounded-2xl odd:bg-lamaPurple even:bg-lamaYellow p-4 flex-1 min-w-[130px]">
