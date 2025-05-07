@@ -74,7 +74,7 @@ const ClassForm = ({
 
       <div className="flex justify-between flex-wrap gap-4">
         <InputField
-          label="Class name"
+          label="Sinf nomi"
           name="name"
           defaultValue={data?.name}
           register={register}

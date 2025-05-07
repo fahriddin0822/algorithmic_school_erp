@@ -26,11 +26,11 @@ const role = (sessionClaims?.metadata as { role?: string })?.role;
 
 const columns = [
   {
-    header: "Subject Name",
+    header: "Fan nomi",
     accessor: "name",
   },
   {
-    header: "Class",
+    header: "Sinf",
     accessor: "class",
   },
   {
@@ -41,7 +41,7 @@ const columns = [
   ...(role === "admin"
     ? [
         {
-          header: "Actions",
+          header: "Harakat",
           accessor: "action",
         },
       ]

@@ -24,33 +24,33 @@ const StudentListPage = async ({
 
   const columns = [
     {
-      header: "Info",
+      header: "Ma'lumot",
       accessor: "info",
     },
     {
-      header: "Student ID",
+      header: "O'quvchi ID'si",
       accessor: "studentId",
       className: "hidden md:table-cell",
     },
     {
-      header: "Grade",
+      header: "Ball",
       accessor: "grade",
       className: "hidden md:table-cell",
     },
     {
-      header: "Phone",
+      header: "Telefon",
       accessor: "phone",
       className: "hidden lg:table-cell",
     },
     {
-      header: "Address",
+      header: "Manzil",
       accessor: "address",
       className: "hidden lg:table-cell",
     },
     ...(role === "admin"
       ? [
           {
-            header: "Actions",
+            header: "Harakat",
             accessor: "action",
           },
         ]

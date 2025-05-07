@@ -30,11 +30,11 @@ const currentUserId = userId;
 
 const columns = [
   {
-    header: "Subject Name",
+    header: "Fan nomi",
     accessor: "name",
   },
   {
-    header: "Class",
+    header: "Sinf",
     accessor: "class",
   },
   {
@@ -43,14 +43,14 @@ const columns = [
     className: "hidden md:table-cell",
   },
   {
-    header: "Date",
+    header: "Vaqt",
     accessor: "date",
     className: "hidden md:table-cell",
   },
   ...(role === "admin" || role === "teacher"
     ? [
         {
-          header: "Actions",
+          header: "Harakat",
           accessor: "action",
         },
       ]

@@ -151,7 +151,7 @@ const SingleStudentPage = async ({
         </div>
         {/* BOTTOM */}
         <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
-          <h1>Student&apos;s Schedule</h1>
+          <h1>O'quvchi&apos;ning jadvali</h1>
           <BigCalendarContainer type="classId" id={student.class.id} />
         </div>
       </div>
@@ -164,31 +164,31 @@ const SingleStudentPage = async ({
               className="p-3 rounded-md bg-lamaSkyLight"
               href={`/list/lessons?classId=${student.class.id}`}
             >
-              Student&apos;s Darslar
+              O'quvchi&apos;ning darslar
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaPurpleLight"
               href={`/list/teachers?classId=${student.class.id}`}
             >
-              Student&apos;s Teachers
+              O'quvchi&apos;ning ustozlari
             </Link>
             <Link
               className="p-3 rounded-md bg-pink-50"
               href={`/list/exams?classId=${student.class.id}`}
             >
-              Student&apos;s Exams
+              O'quvchi&apos;ning imtohonlari
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaSkyLight"
               href={`/list/assignments?classId=${student.class.id}`}
             >
-              Student&apos;s Assignments
+              O'quvchi&apos;ning baholari
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaYellowLight"
               href={`/list/results?studentId=${student.id}`}
             >
-              Student&apos;s Results
+              O'quvchi&apos;ning natijalari
             </Link>
           </div>
         </div>
