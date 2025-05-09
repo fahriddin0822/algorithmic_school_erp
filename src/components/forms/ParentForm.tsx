@@ -11,6 +11,7 @@ import { createParent, updateParent } from "@/lib/actions";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import { CldUploadWidget } from "next-cloudinary";
+import prisma from "@/lib/prisma";
 
 const ParentForm = ({
   type,
@@ -57,7 +58,7 @@ const ParentForm = ({
   }, [state, router, type, setOpen]);
 
   const { subjects } = relatedData;
-
+  
   return (
     <form className="flex flex-col gap-8" onSubmit={onSubmit}>
       <h1 className="text-xl font-semibold">

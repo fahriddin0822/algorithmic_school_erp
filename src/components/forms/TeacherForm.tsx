@@ -64,7 +64,7 @@ const TeacherForm = ({
         {type === "create" ? "Create a new teacher" : "Update the teacher"}
       </h1>
       <span className="text-xs text-gray-400 font-medium">
-        Authentication Information
+        Autentifikatsiya ma'lumotlari
       </span>
       <div className="flex justify-between flex-wrap gap-4">
         <InputField
