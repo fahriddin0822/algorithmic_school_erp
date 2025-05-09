@@ -8,8 +8,8 @@ import "react-toastify/dist/ReactToastify.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Algothmic School dashmoard",
-  description: "Next.js School Management System",
+  title: "Algorithmic School dashboard",
+  description: "Algorithmic School Management System",
 };
 
 export default function RootLayout({
