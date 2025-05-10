@@ -164,31 +164,31 @@ const SingleStudentPage = async ({
               className="p-3 rounded-md bg-lamaSkyLight"
               href={`/list/lessons?classId=${student.class.id}`}
             >
-              O'quvchi&apos;ning darslar
+              O'quvchining darslar
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaPurpleLight"
               href={`/list/teachers?classId=${student.class.id}`}
             >
-              O'quvchi&apos;ning ustozlari
+              O'quvchining ustozlari
             </Link>
             <Link
               className="p-3 rounded-md bg-pink-50"
               href={`/list/exams?classId=${student.class.id}`}
             >
-              O'quvchi&apos;ning imtohonlari
+              O'quvchining imtohonlari
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaSkyLight"
               href={`/list/assignments?classId=${student.class.id}`}
             >
-              O'quvchi&apos;ning baholari
+              O'quvchining baholari
             </Link>
             <Link
               className="p-3 rounded-md bg-lamaYellowLight"
               href={`/list/results?studentId=${student.id}`}
             >
-              O'quvchi&apos;ning natijalari
+              O'quvchining natijalari
             </Link>
           </div>
         </div>
