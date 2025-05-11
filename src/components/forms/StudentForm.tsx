@@ -260,7 +260,7 @@ const StudentForm = ({
                 <option value={classItem.id} key={classItem.id}>
                   ({classItem.name} -{" "}
                   {classItem._count.students + "/" + classItem.capacity}{" "}
-                  Capacity)
+                  Sig'im)
                 </option>
               )
             )}

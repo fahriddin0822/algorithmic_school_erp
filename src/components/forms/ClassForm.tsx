@@ -81,7 +81,7 @@ const ClassForm = ({
           error={errors?.name}
         />
         <InputField
-          label="Capacity"
+          label="Sig'im"
           name="capacity"
           defaultValue={data?.capacity}
           register={register}
